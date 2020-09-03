@@ -1,6 +1,6 @@
-#### laravel-admins
+### laravel-admins
 
-##### Laravel-admin multi-background 多后台
+#### Laravel-admin multi-background 多后台
 
 默认安装后使用的是单应用模式，如果你想在同一个 laravel 项目中使用多应用模式，那么可以采用多后台模式，最终项目中的目录结构大概如下：
 
@@ -23,7 +23,7 @@ app
 
 
 
-##### 生成新应用
+#### 生成新应用
 
 运行命令，此命令只接受一个参数：应用名称，注意这里的应用名称请一定要使用大驼峰风格命名
 
@@ -49,7 +49,7 @@ config
 
 
 
-##### 启用#
+#### 启用#
 
 新应用生成完之后，就可以开始启用这个新应用了，打开配置文件 config/admin.php，加入以下代码
 
@@ -70,7 +70,11 @@ return [
 
 
 
-##### 更改路由前缀
+#### 更改路由前缀
 
 目前只能通过路由前缀区分不同应用，如果你想要更改应用的前缀，可以打开配置文件 new-admin.php 找到 route.prefix 参数进行更改即可。
 
+#### License
+------------
+
+`laravel-admins` is licensed under [The MIT License]
