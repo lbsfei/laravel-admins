@@ -76,5 +76,4 @@ return [
 
 #### License
 ------------
-
-`laravel-admins` is licensed under [The MIT License]
+`laravel-admins` is licensed under [The MIT License](https://github.com/lbsfei/laravel-admins/blob/master/LICENSE "MIT")
